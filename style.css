@@ -1,0 +1,124 @@
+html {
+    background-color: #F7ECDE;
+    /* width: 100%;
+    height: 100%; */
+}
+
+nav {
+    background-color: #54BAB9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.NavBar {
+    background-color: #54BAB9;
+    width: 1000px;
+    border-radius: 30px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: 'Oswald', sans-serif;
+}
+
+.NavItem {
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavItem:first-of-type:hover {
+    border-bottom-left-radius: 30px;
+    background-color: #3d9897;
+}
+
+.NavItem:nth-of-type(2):hover {
+    background-color: #3d9897;
+}
+
+.NavItem:last-of-type:hover {
+    background-color: #3d9897;
+    border-bottom-right-radius: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#Map {
+    width: 800px;
+    height: 300px;
+}
+
+#m {
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.Container {
+    padding-top: 70px;
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    background-color: #F7ECDE;
+}
+
+.MainHeader {
+    background-image: url(/Images/wave-haikei\ \(3\).svg);
+    background-size: cover;
+    background-position: contain;
+    width: 80%;
+    height: 250px;
+    font-size: 2.3em;
+    font-family: 'Oswald', sans-serif;
+}
+
+#About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.TextUnderHeader {
+    margin-bottom: 20px;
+    width: 75%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Line {
+    height: 5px;
+    width: 80%;
+    border-bottom: black 1.5px solid;
+}

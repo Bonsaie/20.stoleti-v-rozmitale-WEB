@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <script src="https://api.mapy.cz/loader.js"></script>
+    <script type="text/javascript" src="mapa.js"></script>
+    <script>
+        Loader.load();
+    </script>
+    <title>Document</title>
+</head>
+
+<nav>
+    <div class="NavBar">
+        <div class="NavItem"><a href="#About">O nás</a></div>
+        <div class="NavItem"><a href="#Projects">Projekty</a></div>
+        <div class="NavItem"><a href="#Map">Mapa</a></div>
+    </div>
+</nav>
+
+<body>
+    <div class="Container">
+        <div class="MainHeader">
+            <p>20.STOLETÍ V ROŽMITÁLE</p>
+        </div>
+        <div id="About">
+            <div class="Line"></div>
+            <div class="Header">O NÁS</div>
+            <div class="TextUnderHeader"> Jsme skupina studentů ze školy da Vinci, kteří se zaměřili na historii města Rožmitálu pod Třemšínem a jeho blízkého okolí. V průběhu pátrání jsme čerpali z archivních pramenů, které se nachází v Městském muzeu v Rožmitále, ze sekundární literatury,
+                z poznatků místních badatelů a vzpomínek pamětníků. Místa, která naleznete na mapě, skrývají méně známé příběhy dějin města a jeho obyvatel. Můžete se vydat po jejich stopách a poslechnout si naše podcasty. Srdečně vás zveme na historickou
+                procházku pro Rožmitále.</div>
+            <div class="Line"></div>
+        </div>
+        <div id="Projects"></div>
+        <div id="Map">
+            <div id="m"></div>
+            <script src="mapa.js"></script>
+        </div>
+    </div>
+</body>
+
+<footer>
+
+</footer>
+
+
+</html>
