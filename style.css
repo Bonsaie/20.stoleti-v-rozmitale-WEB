@@ -28,7 +28,7 @@ nav {
 }
 
 .NavItem {
-    width: 30%;
+    width: 25%;
     height: 80px;
     text-align: center;
     display: flex;
@@ -43,6 +43,10 @@ nav {
 }
 
 .NavItem:nth-of-type(2):hover {
+    background-color: #3d9897;
+}
+
+.NavItem:nth-of-type(3):hover {
     background-color: #3d9897;
 }
 
@@ -69,16 +73,29 @@ a {
 }
 
 body {
+    height: 800px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     margin: 0px;
+}
+
+footer {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #E9DAC1;
 }
 
 .Container {
     padding-top: 70px;
     width: 75%;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,13 +108,13 @@ body {
     background-image: url(/Images/wave-haikei\ \(3\).svg);
     background-size: cover;
     background-position: contain;
-    width: 80%;
-    height: 250px;
+    width: 90%;
+    height: 175px;
     font-size: 2.3em;
     font-family: 'Oswald', sans-serif;
 }
 
-#About {
+.Content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,4 +138,26 @@ body {
     height: 5px;
     width: 80%;
     border-bottom: black 1.5px solid;
+}
+
+.SpaceBetween {
+    width: 100%;
+    height: 100px;
+    background-image: url(/Images/blob-haikei.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.SpaceBetween:nth-of-type(2n) {
+    width: 100%;
+    height: 100px;
+    background-image: url(/Images/blob-haikei\ \(1\).svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.SpaceBetween:last-of-type {
+    opacity: 0;
 }

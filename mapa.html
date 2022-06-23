@@ -1,33 +1,48 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="cs">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://api.mapy.cz/loader.js"></script>
-    <script type="text/javascript" src="mapa.js"></script>
-    <script>
-        Loader.load();
-    </script>
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
-    <title>Mapa Podcastu</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <title>20.stol v Rožmitále</title>
 </head>
 
-<body>
-    <!--Navigation bar-->
-    <div id="nav-placeholder"></div>
+<nav>
+    <div class="NavBar">
+        <div class="NavItem"><a href="index.html">O nás</a></div>
+        <div class="NavItem"><a href="projekty.html">Projekty</a></div>
+        <div class="NavItem"><a href="mapa.html">Mapa</a></div>
+        <div class="NavItem"><a href="podcasty.html">Podcasty</a></div>
+    </div>
+</nav>
 
-    <script>
-        $(function() {
-            $("#nav-placeholder").load("nav.html");
-        });
-    </script>
-    <!--end of Navigation bar-->
-    <h1>Inteaktivni mapa podcastu</h1>
-    <div id="m"></div>
-    <script src="mapa.js"></script>
+<body>
+    <div class="Container">
+        <div class="MainHeader">
+            <p>Projekty</p>
+        </div>
+        <div class="Content">
+            <div class="Line"></div>
+            <div class="Header">Odboj na Rožmitálsku</div>
+            <div class="TextUnderHeader">Odboj v Rožmitálu pod Třemšínem začal téměř okamžitě po zabrání Sudet. Z počátku se jednalo spíše o ojedinělé akce bez větších dopadů a s malou mírou organizovanosti. Změnu přinesl František Lízl, kterému se podařilo navázat spolupráci se
+                skupinou odbojářů z Voltuše, kterou vedli Jaroslav Pompl a Alois Hovorka. Obě skupiny se roku 1942 spojily, a velitelem se stal právě František Lízl. Klíčovým úkolem této skupiny byla distribuce ilegálních tiskovin. Později, když se v
+                Brdech začali objevovat sovětští vojáci, kteří uprchli z nacistického zajetí, se tato skupina starala o jejich přístřeší a stravu. V roce 1943 došlo k rozsáhlé razii, při které klatovské gestapo pozatýkalo téměř všechny představitele protinacistického
+                odboje v Brdech. Někteří odbojáři se následně snažili ukrýt v lesích nebo na tajných adresách, jiní se při dopadení bránili se zbraní v ruce. Mnoho z nich však padlo nebo bylo umučeno či popraveno.</div>
+            <div class="Line"></div>
+            <div class="SpaceBetween"></div>
+
+        </div>
+    </div>
 </body>
+
+<footer>
+    <div class="Creator">Created by: <a href="https://linktr.ee/bonsaie" target="_blank">"Bonsaie"</a></div>
+</footer>
+
 
 </html>
